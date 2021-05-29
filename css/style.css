@@ -83,80 +83,78 @@
   font-size:50px;
 }
 
-.facilities-container .cards{
-  max-width: auto;
-  margin: auto;
-  padding: 20px;
+.cards {
+  margin: 20px;
+  /* background-color: transparent; */
+  /* perspective: 1000px; */
+  width:33%;
+  height:auto;
+  justify-content: space-between;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  color: black;
 }
 
-.facilities-container .cards .facione-flipcard{
+.first-card{
   padding:20px;
-  width: 33%;
   margin: 20px;
   border: 1px solid;
+  text-align:center;
+  background-color: white;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
 }
 
-.facilities-container .cards .facione-flipcard:hover{
-  color: grey;
+.first-card-inner .first-image{
+  width:300px;
+  height:300px;
 }
 
-
-.facilities-container .cards .facione-flipcard h1{
+.first-card-outer{
   margin: 10px;
-  margin-left:0px;
-  text-align: center;
 }
 
-.facilities-container .cards .facione-flipcard p{
-  margin: 10px;
-  margin-left:0px;
-  text-align: center;
-  font-size: 20px;
-}
-
-.facilities-container .cards .facitwo-flipcard{ 
+.second-card{
   padding:20px;
-  width: 33%;
   margin: 20px;
-  border: 1px solid;
+  border:1px solid;
+  text-align:center;
+  background-color: white;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
 }
 
-.facilities-container .cards .facitwo-flipcard h1{
+.second-card-inner .second-image{
+  width:300px;
+  height:300px;
+}
+
+.second-card-outer{
   margin: 10px;
-  margin-left:0px;
-  text-align: center;
 }
 
-.facilities-container .cards .facitwo-flipcard p{
-  margin: 10px;
-  margin-left:0px;
-  text-align: center;
-  font-size: 20px;
-}
-
-.facilities-container .cards .facithree-flipcard{
+.third-card{
+  border:1px solid;
   padding:20px;
-  width: 33%;
   margin: 20px;
-  border: 1px solid;
+  text-align:center;
+  background-color: white;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
 }
 
-.facilities-container .cards .facithree-flipcard h1{
-  margin: 10px;
-  margin-left:0px;
-  text-align: center;
+.third-card-inner .third-image{
+  width:300px;
+  height:300px;
 }
 
-.facilities-container .cards .facithree-flipcard p{
+.third-card-outer{
   margin: 10px;
-  margin-left:0px;
-  text-align: center;
-  font-size: 20px;
 }
+
+
 
 
 
