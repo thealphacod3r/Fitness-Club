@@ -6,6 +6,7 @@
   text-decoration: none;
 }
 
+/* Navbar CSS */
 .navbar {
   height: 50px;
   background: black;
@@ -65,35 +66,100 @@
 .navbar .login:hover{
   color: white;
 }
+/* ------------------------ */
 
-/* .navbar {
-  position: fixed;
-  top: 0;
+/* Faci-flipcards */
+
+.facilities-container {
+  padding: 50px;
+  height: auto;
   width: 100%;
-  background-color: black;
-  height: 7%;
+  bottom: 0;
+  left: 0;
 }
 
-.navbar ul {
-  margin-top: 0px;
-  overflow: auto;
+.facilities-container .heading{
+  text-align: center;
+  font-size:50px;
 }
 
-.navbar li {
-  float: left;
-  list-style: none;
-  margin: 13px 20px;
+.facilities-container .cards{
+  max-width: auto;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  color: black;
 }
 
-.navbar li a {
-  padding: 3px 3px;
-  text-decoration: none;
-  color: white;
+.facilities-container .cards .facione-flipcard{
+  padding:20px;
+  width: 33%;
+  margin: 20px;
+  border: 1px solid;
 }
 
-.navbar li a:hover {
-  color: white;
-} */
+.facilities-container .cards .facione-flipcard:hover{
+  color: grey;
+}
+
+
+.facilities-container .cards .facione-flipcard h1{
+  margin: 10px;
+  margin-left:0px;
+  text-align: center;
+}
+
+.facilities-container .cards .facione-flipcard p{
+  margin: 10px;
+  margin-left:0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.facilities-container .cards .facitwo-flipcard{ 
+  padding:20px;
+  width: 33%;
+  margin: 20px;
+  border: 1px solid;
+}
+
+.facilities-container .cards .facitwo-flipcard h1{
+  margin: 10px;
+  margin-left:0px;
+  text-align: center;
+}
+
+.facilities-container .cards .facitwo-flipcard p{
+  margin: 10px;
+  margin-left:0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.facilities-container .cards .facithree-flipcard{
+  padding:20px;
+  width: 33%;
+  margin: 20px;
+  border: 1px solid;
+}
+
+.facilities-container .cards .facithree-flipcard h1{
+  margin: 10px;
+  margin-left:0px;
+  text-align: center;
+}
+
+.facilities-container .cards .facithree-flipcard p{
+  margin: 10px;
+  margin-left:0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
 
 .homepage img {
   max-width: 100%;
