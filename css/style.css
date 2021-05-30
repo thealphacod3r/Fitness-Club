@@ -1,23 +1,279 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans:wght@300&family=Teko&display=swap");
 
-* {
+body {
   margin: 0;
   padding: 0;
+  font-family: "Teko", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 87px;
+    padding: 7px 28px;
   box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+nav .logo {
+  padding: 22px 20px;
+  position: relative;
+  height: 80px;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  cursor: pointer;
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
   text-decoration: none;
+  font-family: "Anton", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li .button {
+  padding: 11px;
+  margin: 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-family: "Teko", sans-serif;
+  box-shadow: inset 0 0 0 0 rgba(182, 177, 177, 0.418);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+nav ul li .button:hover {
+  box-shadow: inset 400px 0 0 0 rgba(182, 177, 177, 0.418);
+}
+
+nav ul li a:hover {
+  background: rgb(10, 0, 0);
+  border-radius: 6px;
+}
+
+section {
+  width: auto;
+  height: 840px;
+  background: url("https://cdn.pixabay.com/photo/2017/08/02/16/06/people-2572265_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section .quote {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+section .quote h1 {
+  margin: 0;
+  width: 66%;
+  padding-top: 550px;
+  padding-left: 80px;
+  font-size: 50px;
+  color: white;
+  position: relative;
+  font-family: "Teko", sans-serif;
+}
+
+.second-page{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 700px;
+}
+
+.second-page .second-page-image{
+  width: 33%;
+  margin: 100px;
+  height: 70%;
+}
+
+.second-page .second-page-text{
+  margin: 100px;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.second-page .second-page-text h3 a{
+  font-size:40px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+.second-page .second-page-text h3 a:before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.second-page .second-page-text h3 a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.second-page .second-page-text .second-page-button {
+  padding: 11px;
+  margin: 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Teko", sans-serif;
+  box-shadow: inset 0 0 0 0 rgba(182, 177, 177, 0.418);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.second-page .second-page-text .second-page-button {
+  box-shadow: inset 400px 0 0 0 rgba(182, 177, 177, 0.418);
+}
+
+.third-page{
+  background-color: black;
+  height: 800px;
+}
+
+.third-page .third-page-heading{
+  font-size: 70px;
+  padding:50px;
+  color: white;
+}
+
+.third-page .third-page-heading a{
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.third-page .third-page-heading a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.third-page .third-page-heading a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.third-page .third-page-cards{
+  display:flex;
+  margin: 20px;
+  padding: 20px;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.third-page .third-page-cards .first-card{
+  border: 1px solid;
+  margin: 10px;
+  width: 33%;
+  background-color:red;
+  box-shadow: inset 0 0 0 0 rgba(182, 177, 177, 0.418);
+  -webkit-transition: ease-in 0.4s;
+  -moz-transition: ease-in 0.4s;
+  transition: ease-in 0.4s;
+}
+
+.third-page .third-page-cards .first-card:hover{
+  box-shadow: inset 400px 0 0 0 rgba(182, 177, 177, 0.418);
+}
+
+.third-page .third-page-cards .first-card .first-head{
+  text-align: center;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.third-page .third-page-cards .first-card p{
+  margin: 30px;
+  font-size: 20px;
+}
+
+.third-page .third-page-cards .second-card{
+  border: 1px solid;
+  margin: 10px;
+  width: 33%;
+  background-color:red;
+}
+
+.third-page .third-page-cards .second-card .second-head{
+  text-align: center;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.third-page .third-page-cards .second-card p{
+  margin: 30px;
+  font-size: 20px;
+}
+
+.third-page .third-page-cards .third-card{
+  border: 1px solid;
+  margin: 10px;
+  width: 33%;
+  background-color:red;
+}
+
+.third-page .third-page-cards .third-card .third-head{
+  text-align: center;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.third-page .third-page-cards .third-card p{
+  margin: 30px;
+  font-size: 20px;
 }
 
 /* Navbar CSS */
-.navbar {
+/* .navbar {
   height: 50px;
-  background: black;
+  background: rgb(206, 197, 197);
 }
 
 .navbar .nav-img {
   margin: 5px;
   margin-left: 10px;
-  border: 1px solid #EE34D2;
+  border: 1px solid #ee34d2;
   width: 11%;
   height: 76%;
   padding: 5px;
@@ -25,7 +281,7 @@
 }
 
 .navbar .nav-img:hover {
-  box-shadow: 0 0 50px #EE34D2;
+  box-shadow: 0 0 50px #ee34d2;
 }
 
 .navbar h1 {
@@ -52,21 +308,20 @@
 .navbar ul li a {
   position: relative;
   padding: 5px 0;
-  color: #EE34D2;
+  color: #ee34d2;
   font-size: 18px;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   text-decoration: none;
 }
 
-
 .navbar .login {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   padding: 5px;
   height: 37px;
   width: 100%;
   color: white;
   font-size: 16px;
-  background: #EE34D2;
+  background: #ee34d2;
   outline: none;
   border-radius: 14px;
   letter-spacing: 1px;
@@ -81,14 +336,15 @@
 }
 
 .navbar .login:hover {
-  background: #EE34D2;
-  box-shadow: 0 0 50px #EE34D2;
-}
+  background: #ee34d2;
+  box-shadow: 0 0 50px #ee34d2;
+} */
 /* ------------------------ */
 
 .first-page img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   font-size: 0;
   display: block;
   padding-top: 0px;
