@@ -160,13 +160,15 @@ section .quote h1 {
 
 .third-page{
   background-color: black;
-  height: 800px;
+  height: 900px;
 }
 
 .third-page .third-page-heading{
   font-size: 70px;
   padding:50px;
+  padding-bottom:30px;
   color: white;
+  margin-bottom: 0px;;
 }
 
 .third-page .third-page-heading a{
@@ -199,7 +201,7 @@ section .quote h1 {
   flex-wrap: nowrap;
   justify-content:space-between;
   color: white;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 
 .third-page .third-page-cards .first-card{
@@ -264,187 +266,15 @@ section .quote h1 {
   font-size: 20px;
 }
 
-/* Navbar CSS */
-/* .navbar {
-  height: 50px;
-  background: rgb(206, 197, 197);
-}
-
-.navbar .nav-img {
-  margin: 5px;
-  margin-left: 10px;
-  border: 1px solid #ee34d2;
-  width: 11%;
-  height: 76%;
-  padding: 5px;
-  padding-right: 10px;
-}
-
-.navbar .nav-img:hover {
-  box-shadow: 0 0 50px #ee34d2;
-}
-
-.navbar h1 {
-  position: absolute;
-  width: 200px;
-  top: 8px;
-  left: 5%;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.navbar ul {
-  float: right;
-  margin-right: 25px;
-  list-style: none;
-}
-
-.navbar ul li {
-  display: inline-block;
-  line-height: 47px;
-  margin: 0 15px;
-}
-
-.navbar ul li a {
-  position: relative;
-  padding: 5px 0;
-  color: #ee34d2;
-  font-size: 18px;
-  font-family: "Noto Sans JP", sans-serif;
-  text-decoration: none;
-}
-
-.navbar .login {
-  font-family: "Noto Sans JP", sans-serif;
-  padding: 5px;
-  height: 37px;
-  width: 100%;
-  color: white;
-  font-size: 16px;
-  background: #ee34d2;
-  outline: none;
-  border-radius: 14px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  margin-top: 0px;
-  display: inline-block;
-  color: white;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-decoration: none;
-  overflow: hidden;
-}
-
-.navbar .login:hover {
-  background: #ee34d2;
-  box-shadow: 0 0 50px #ee34d2;
-} */
-/* ------------------------ */
-
-.first-page img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  font-size: 0;
-  display: block;
-  padding-top: 0px;
-}
-
-/* .facilities-container {
-  padding: 50px;
-  height: auto;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background-color: grey;
-  background-image: url("https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  background-position: center center;
-  background-size: 100% auto;
-}
-
-.facilities-container .heading {
-  text-align: center;
-  font-size: 50px;
-}
-
-.cards {
-  margin: 20px;
-  width: 33%;
-  height: auto;
-  justify-content: space-between;
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.first-card {
-  padding: 20px;
-  margin: 20px;
-  border: 1px solid;
-  text-align: center;
-  background-color: white;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.first-card-inner .first-image {
-  width: 300px;
-  height: 300px;
-}
-
-.first-card-outer {
-  margin: 10px;
-}
-
-.second-card {
-  padding: 20px;
-  margin: 20px;
-  border: 1px solid;
-  text-align: center;
-  background-color: white;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.second-card-inner .second-image {
-  width: 300px;
-  height: 300px;
-}
-
-.second-card-outer {
-  margin: 10px;
-}
-
-.third-card {
-  border: 1px solid;
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-  background-color: white;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.third-card-inner .third-image {
-  width: 300px;
-  height: 300px;
-}
-
-.third-card-outer {
-  margin: 10px;
-} */
-
-/* 
 footer {
   width: 100%;
   bottom: 0;
   left: 0;
-  background: black;
+  background: grey;
 }
 
 footer .container {
   max-width: auto;
-  margin: auto;
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -461,12 +291,14 @@ footer .container .middle-box {
 }
 
 footer .container .left-box {
+  padding: 20px;
   width: 33%;
 }
 
 footer .container .topic {
   font-size: 22px;
   font-weight: 600;
+  font-family: "Teko", sans-serif;
   color: white;
   margin-bottom: 16px;
 }
@@ -484,15 +316,17 @@ footer .container .lower i {
 }
 
 footer .container .middle-box {
-  padding-left: 80px;
+  padding: 20px;
 }
 
 footer .container .middle-box a {
   line-height: 32px;
+  text-decoration: none;
 }
 
 footer .container .right-box {
   margin-right: 50px;
+  padding: 20px;
 }
 
 footer .container .right-box input[type="text"] {
@@ -524,14 +358,15 @@ footer .bottom {
   margin-top: 10px;
   width: 100%;
   height: 50px;
-  background-color: grey;
+  background-color: black;
 }
 
 footer .bottom p {
   text-align: center;
   padding: 10px;
+  padding-bottom: 0px;
 }
 
 footer .bottom a {
   color: #eb2f06;
-} */
+} 
