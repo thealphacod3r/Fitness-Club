@@ -1,4 +1,4 @@
-# X-Fitness Gym Website
+# Fitness-Club Website
 Basic gym website only made with HTML and CSS.
 
 ## To-do
