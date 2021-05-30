@@ -10,7 +10,6 @@
 .navbar {
   height: 50px;
   background: black;
-  
 }
 
 .navbar .nav-img {
@@ -63,103 +62,13 @@
   margin-top: 0px;
 }
 
-.navbar .login:hover{
+.navbar .login:hover {
   color: white;
 }
 /* ------------------------ */
 
-/* Faci-flipcards */
 
-.facilities-container {
-  padding: 50px;
-  height: auto;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-}
-
-.facilities-container .heading{
-  text-align: center;
-  font-size:50px;
-}
-
-.cards {
-  margin: 20px;
-  /* background-color: transparent; */
-  /* perspective: 1000px; */
-  width:33%;
-  height:auto;
-  justify-content: space-between;
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.first-card{
-  padding:20px;
-  margin: 20px;
-  border: 1px solid;
-  text-align:center;
-  background-color: white;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-
-}
-
-.first-card-inner .first-image{
-  width:300px;
-  height:300px;
-}
-
-.first-card-outer{
-  margin: 10px;
-}
-
-.second-card{
-  padding:20px;
-  margin: 20px;
-  border:1px solid;
-  text-align:center;
-  background-color: white;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-
-}
-
-.second-card-inner .second-image{
-  width:300px;
-  height:300px;
-}
-
-.second-card-outer{
-  margin: 10px;
-}
-
-.third-card{
-  border:1px solid;
-  padding:20px;
-  margin: 20px;
-  text-align:center;
-  background-color: white;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-
-}
-
-.third-card-inner .third-image{
-  width:300px;
-  height:300px;
-}
-
-.third-card-outer{
-  margin: 10px;
-}
-
-
-
-
-
-
-.homepage img {
+.first-page img {
   max-width: 100%;
   height: auto;
   font-size: 0;
@@ -167,19 +76,169 @@
   padding-top: 0px;
 }
 
-.pricing img {
-  max-width: 100%;
-  height: 900px;
-  font-size: 0;
-  display: block;
-}
 
-.contact-us img {
-  max-width: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .facilities-container {
+  padding: 50px;
   height: auto;
-  display: block;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: grey;
+  background-image: url("https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center center;
+  background-size: 100% auto;
 }
 
+.facilities-container .heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+.cards {
+  margin: 20px;
+  width: 33%;
+  height: auto;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.first-card {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid;
+  text-align: center;
+  background-color: white;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.first-card-inner .first-image {
+  width: 300px;
+  height: 300px;
+}
+
+.first-card-outer {
+  margin: 10px;
+}
+
+.second-card {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid;
+  text-align: center;
+  background-color: white;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.second-card-inner .second-image {
+  width: 300px;
+  height: 300px;
+}
+
+.second-card-outer {
+  margin: 10px;
+}
+
+.third-card {
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.third-card-inner .third-image {
+  width: 300px;
+  height: 300px;
+}
+
+.third-card-outer {
+  margin: 10px;
+} */
+
+
+/* 
 footer {
   width: 100%;
   bottom: 0;
@@ -230,8 +289,6 @@ footer .container .lower i {
 }
 
 footer .container .middle-box {
-  /* margin: 40px;
-  margin-top: 0px; */
   padding-left: 80px;
 }
 
@@ -282,4 +339,4 @@ footer .bottom p {
 
 footer .bottom a {
   color: #eb2f06;
-}
+} */
